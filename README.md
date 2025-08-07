@@ -1,32 +1,43 @@
-# Physio Pro 🧠💪
+# 🧠 Physio Pro
 
-A full-stack web application built using **Next.js** and **Express** to help physiotherapy clinics manage appointments, patient records, and therapy plans.
+A full-stack physiotherapy appointment and management system built with the **MERN stack** using **Next.js** (frontend) and **Express.js** (backend).
 
-## 🚀 Tech Stack
+## 🚀 Features
 
-- Frontend: [Next.js](https://nextjs.org/)
-- Backend: [Express](https://expressjs.com/)
-- Database: MongoDB (if connected)
-- Styling: Tailwind CSS / CSS Modules (adjust based on your setup)
+- 🗓️ Schedule & manage physiotherapy sessions
+- 🧾 Patient records and notes
+- 📬 Secure communication between therapists and patients
+- 📈 Dashboard with patient activity and stats
+- 💻 Fully responsive UI (Next.js + TailwindCSS)
 
-## 📸 Screenshots
+## 🛠️ Tech Stack
 
-> Add these images in a folder like `/public/screenshots/` or use absolute GitHub image links.
+- **Frontend:** Next.js, React, TailwindCSS
+- **Backend:** Express.js, Node.js
+- **Database:** MongoDB
+- **Authentication:** JWT / Sessions
 
-![Home Page](./public/screenshots/home.png)
-![Dashboard](./public/screenshots/dashboard.png)
+## 🖼️ Screenshots
 
-## 🛠️ Installation
+> _Add these images to your project root or a `/screenshots` folder, then update the links._
+
+![Dashboard](./screenshots/dashboard.png)
+![Appointments](./screenshots/appointments.png)
+
+## 🚧 Setup Instructions
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/Physio_Pro.git
-
-# Go into the project folder
-cd Physio_Pro
+git clone https://github.com/yourusername/physio-pro.git
 
 # Install dependencies
+cd physio-pro
 npm install
 
-# Run the frontend (Next.js)
+# Run frontend
+npm run dev
+
+# In another terminal, run backend (if separated)
+cd backend
+npm install
 npm run dev
