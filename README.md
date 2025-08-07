@@ -17,13 +17,6 @@ A full-stack physiotherapy appointment and management system built with the **ME
 - **Database:** MongoDB
 - **Authentication:** JWT / Sessions
 
-## 🖼️ Screenshots
-
-> _Add these images to your project root or a `/screenshots` folder, then update the links._
-
-![Dashboard](./screenshots/dashboard.png)
-![Appointments](./screenshots/appointments.png)
-
 ## 🚧 Setup Instructions
 
 ```bash
